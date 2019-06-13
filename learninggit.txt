@@ -1,0 +1,276 @@
+commit 2b8668d90535522ba8153f3e1d952ecbd9bfbb3b
+Author: ImageProcessingAndPythonLearner <782012208@qq.com>
+Date:   Thu Jun 13 09:10:03 2019 +0800
+
+    change first statement
+
+commit 7503cfb4d91d02b44c1b8a56d3211e497f2f9be0
+Author: ImageProcessingAndPythonLearner <782012208@qq.com>
+Date:   Wed Jun 12 11:12:49 2019 +0800
+
+    a modify to readme
+
+commit e7b9f89a0a105fb74673c90d26250c9d95eec886
+Author: ImageProcessingAndPythonLearner <782012208@qq.com>
+Date:   Wed Jun 12 10:45:01 2019 +0800
+
+    wrote a readme file
+    
+    
+    
+2b8668d90535522ba8153f3e1d952ecbd9bfbb3b change first statement
+7503cfb4d91d02b44c1b8a56d3211e497f2f9be0 a modify to readme
+e7b9f89a0a105fb74673c90d26250c9d95eec886 wrote a readme file
+
+
+
+HEAD 现在位于 7503cfb a modify to readme
+
+
+2b8668d HEAD@{0}: reset: moving to 2b866
+7503cfb HEAD@{1}: reset: moving to HEAD^
+2b8668d HEAD@{2}: commit: change first statement
+7503cfb HEAD@{3}: commit: a modify to readme
+e7b9f89 HEAD@{4}: commit (initial): wrote a readme file
+
+==============================================================
+
+位于分支 master
+尚未暂存以备提交的变更：
+  （使用 "git add <文件>..." 更新要提交的内容）
+  （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
+
+	修改：     readme.txt
+
+未跟踪的文件:
+  （使用 "git add <文件>..." 以包含要提交的内容）
+
+	LICENSE
+
+修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+
+
+
+
+
+
+位于分支 master
+要提交的变更：
+  （使用 "git reset HEAD <文件>..." 以取消暂存）
+
+	新文件：   LICENSE
+	修改：     readme.txt
+
+
+
+
+[master a2ba925] modify readme and add a LICENSE
+ 2 files changed, 2 insertions(+)
+ create mode 100644 LICENSE
+
+
+
+
+
+位于分支 master
+要提交的变更：
+  （使用 "git reset HEAD <文件>..." 以取消暂存）
+
+	修改：     readme.txt
+
+
+
+
+[master 58db9ef] git tracks changes
+ 1 file changed, 1 insertion(+)
+
+
+
+
+位于分支 master
+尚未暂存以备提交的变更：
+  （使用 "git add <文件>..." 更新要提交的内容）
+  （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
+
+	修改：     readme.txt
+
+修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+
+
+
+
+diff --git a/readme.txt b/readme.txt
+index d456dcc..c175fd8 100644
+--- a/readme.txt
++++ b/readme.txt
+@@ -2,4 +2,4 @@ Git is free software distributed under the GPL.
+ Git is free software.
+ Hello SB SLAM
+ there is a LICENSE
+-git tracks changes
++git tracks changes of files
+
+
+
+===================git add后的====================
+位于分支 master
+要提交的变更：
+  （使用 "git reset HEAD <文件>..." 以取消暂存）
+
+	修改：     readme.txt
+
+
+==================git reset HEAD后的=================
+重置后取消暂存的变更：
+M	readme.txt
+=====================
+
+位于分支 master
+尚未暂存以备提交的变更：
+  （使用 "git add <文件>..." 更新要提交的内容）
+  （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
+
+	修改：     readme.txt
+
+修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+
+
+
+
+
+
+
+=====================删除文件=================
+位于分支 master
+尚未暂存以备提交的变更：
+  （使用 "git add/rm <文件>..." 更新要提交的内容）
+  （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
+
+	删除：     test.txt
+
+修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+
+
+
+
+
+[master 83238fb] rm test.txt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 test.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==========================从本地库向远程库推送=======================
+The authenticity of host 'github.com (13.250.177.223)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'github.com,13.250.177.223' (RSA) to the list of known hosts.
+对象计数中: 26, 完成.
+Delta compression using up to 40 threads.
+压缩对象中: 100% (20/20), 完成.
+写入对象中: 100% (26/26), 2.20 KiB | 0 bytes/s, 完成.
+Total 26 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+To git@github.com:ImageProcessingAndPythonLearner/learngit.git
+ * [new branch]      master -> master
+分支 master 设置为跟踪来自 origin 的远程分支 master。
+==========================从本地库向远程库推送=======================
+
+
+
+======================克隆库===================
+正克隆到 'gitskills'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+接收对象中: 100% (3/3), 完成.
+检查连接... 完成。
+======================克隆库===================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
